@@ -26,7 +26,7 @@ input, textarea {
     border-radius: 4px;
 }
 
-button {
+form button {
     padding: 10px;
     background-color: #007bff;
     color: white;
@@ -51,20 +51,25 @@ button:disabled {
     margin: 5px 0;
 }
 
-.editBtn, .deleteBtn {
+#editBtn{
     margin-top: 10px;
     padding: 5px 10px;
-    background-color: #28a745;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
-
-.deleteBtn {
+#deleteBtn {
     background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 10px;
 }
 
-.editBtn:hover, .deleteBtn:hover {
+#editBtn:hover, #deleteBtn:hover {
     opacity: 0.8;
 }

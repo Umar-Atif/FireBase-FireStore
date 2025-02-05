@@ -28,8 +28,8 @@ function render(arr) {
         <div class="box">
         <h2>Title: ${item.title}</h2>
         <h2>Description: ${item.description}</h2>
-        <button id="editBtn">Edit ToDo</button>
-        <button id="deleteBtn">Delete ToDo</button>`
+        <button id="editBtn">Edit ToDo <i class="fa-solid fa-pen-to-square"></i></button>
+        <button id="deleteBtn">Delete ToDo <i class="fa-solid fa-trash"></i></button>`
     })
 
     // Edit & Delete
